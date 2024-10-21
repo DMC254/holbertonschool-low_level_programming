@@ -1,7 +1,10 @@
 #include <stdio.h>
 /**
  * main - Entry point
- * Return: Always 0 (Success)
+ *
+ * Description: Calls puts and recieves value returned by puts after its
+ * execution.
+ * Return: Always return 0 to indicate success
  */
 int main(void)
 {
