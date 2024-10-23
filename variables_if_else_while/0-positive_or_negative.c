@@ -4,7 +4,7 @@
 /**
  * main - assing random number
  *
- *return 0
+ *Return 0 (success)
  */
 int main(void)
 {
@@ -21,7 +21,7 @@ int main(void)
 	}
 	else if (n < 0)
 	{
-		printf("Thenumber is negative \n");
+		printf("Then umber is negative \n");
 	}
 	else
 	{
