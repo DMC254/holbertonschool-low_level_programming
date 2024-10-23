@@ -16,13 +16,11 @@ int main(void)
 
 	n = rand() - RAND_MAX / 2;
 
-	printf("%d\n", n);
-
 	if (n > 0)
 
 	{
 
-		printf("is positive\n");
+		printf("%dis positive\n");
 
 	}
 
@@ -30,7 +28,7 @@ int main(void)
 
 	{
 
-		printf("is negative\n");
+		printf("%dis negative\n");
 
 	}
 
@@ -38,7 +36,7 @@ int main(void)
 
 	{
 
-		printf("is zero\n");
+		printf("%dis zero\n");
 
 	}
 
