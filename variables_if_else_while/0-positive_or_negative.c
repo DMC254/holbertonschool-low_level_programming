@@ -22,7 +22,7 @@ int main(void)
 
 	{
 
-		printf("The number is positive\n");
+		printf("is positive\n");
 
 	}
 
@@ -30,7 +30,7 @@ int main(void)
 
 	{
 
-		printf("The number is negative\n");
+		printf("is negative\n");
 
 	}
 
@@ -38,7 +38,7 @@ int main(void)
 
 	{
 
-		printf("The number is zero\n");
+		printf("is zero\n");
 
 	}
 
