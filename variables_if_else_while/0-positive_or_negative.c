@@ -1,21 +1,17 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <time.h>
-
 /**
- * main - assign random number
+ * main - random number for variable n each time is executed
  *
- * Return: 0 (success)
+ * Return: Always 0
  */
 int main(void)
 {
-
 	int n;
 
 	srand(time(0));
-
 	n = rand() - RAND_MAX / 2;
-	printf("%d \n", n);
 
 	if (n > 0)
 
