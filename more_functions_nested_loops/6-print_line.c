@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * print_line - draw a straight line in the terminal
- * @n - The number of time to print the character '_'
+ * @n: The number of time to print the character '_'
  *
  * Return: void
  */
