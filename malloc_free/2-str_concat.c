@@ -40,12 +40,12 @@ char *str_concat(char *s1, char *s2)
 	if (!nstr)
 		return (NULL);
 
-	for (jdx = 0; idx < s1l; idx++)
+	for (idx = 0; idx < s1l; idx++)
 		nstr[idx] = s1[idx];
 
 	for (jdx = 0; jdx < s2l; jdx++, idx++)
 		nstr[idx] = s2[jdx];
 
-	nstr[idx] = s2[jdx];
+	nstr[idx] = '\0';
 	return (nstr);
 }
