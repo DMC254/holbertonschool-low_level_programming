@@ -4,25 +4,24 @@
 
 /**
  * sum_them_all - Entry point
- * Desc: Entry
- *@n: int value
+ * @n: variadic intput
  * Return: Always 0 (Success)
  */
 int sum_them_all(const unsigned int n, ...)
 {
 	va_list valist;
-	int sum = 0;
-	unsigned int i;
+	unsigned int i, sum = 0;
 
 	if (n == 0)
-	{
 		return (0);
-	}
+
 	va_start(valist, n);
-	for (i = 0 ; i < n ; i++)
+
+	for (i = 0; i < n; i++)
 	{
-		sum = sum + va_arg(valist, int);
+		sum += va_arg(valist, const unsigned int);
 	}
 	va_end(valist);
+
 	return (sum);
 }
